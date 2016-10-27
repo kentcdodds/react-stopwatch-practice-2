@@ -2,7 +2,10 @@
   "name": "@kentcdodds/react-stopwatch-practice-2",
   "version": "1.0.0",
   "description": "Don't use this, it's fake",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "url": "https://github.com/kentcdodds/react-stopwatch.git",
     "type": "git"
@@ -11,5 +14,19 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^15 || ^15.4.0-rc.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015",
+      "stage-2"
+    ]
   }
 }
