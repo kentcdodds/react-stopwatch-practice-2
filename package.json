@@ -1,11 +1,14 @@
 {
   "name": "@kentcdodds/react-stopwatch-practice-2",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Don't use this, it's fake",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "url": "https://github.com/kentcdodds/react-stopwatch.git",
     "type": "git"
@@ -40,7 +43,8 @@
     "build": "babel --out-dir dist --ignore *.test.js src",
     "test": "jest",
     "cover": "jest --coverage",
-    "watch:test": "jest --watch"
+    "watch:test": "jest --watch",
+    "prepublish": "npm run cover && npm run build"
   },
   "jest": {
     "coverageThreshold": {
