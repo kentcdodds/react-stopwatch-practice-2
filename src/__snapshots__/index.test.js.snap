@@ -17,31 +17,13 @@ exports[`test initial state 1`] = `
     <button
       data-test="toggle"
       onClick={[Function]}
-      style={
-        Object {
-          "background": "#fff",
-          "border": "1px solid #ccc",
-          "fontSize": "2em",
-          "margin": "0 5px",
-          "padding": "15px",
-          "width": "200px",
-        }
-      }>
+      style={undefined}>
       Start
     </button>
     <button
       data-test="clear"
       onClick={[Function]}
-      style={
-        Object {
-          "background": "#fff",
-          "border": "1px solid #ccc",
-          "fontSize": "2em",
-          "margin": "0 5px",
-          "padding": "15px",
-          "width": "200px",
-        }
-      }>
+      style={undefined}>
       Clear
     </button>
   </div>
